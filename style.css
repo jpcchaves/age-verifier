@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+    font: normal 18px Arial;
+    background-color: rgb(65, 117, 230);
+}
+
+
+section{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    min-width: 350px;
+    max-width: 550px;
+}
+
+div {
+    text-align: left;
+}
+
+img#foto{
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+}
+
+p > a{
+    color: white;
+    text-decoration: none;
+}
+
+p > a:hover {
+    transition-duration: 0.6s;
+    border-radius: 5px;
+    padding: 2px;
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
